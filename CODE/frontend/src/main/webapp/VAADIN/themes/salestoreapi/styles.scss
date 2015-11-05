@@ -1,0 +1,27 @@
+@import "../reindeer/styles.css";
+
+.mytheme {
+
+  @include reindeer;
+
+  .v-ui {
+    background: white;
+  }
+
+  .v-label {
+    background: black;
+    color: white;
+    font-size: 24pt;
+    line-height: 24pt;
+    padding: 5px;
+  }
+
+  .v-button {
+    margin: 10px;
+
+    .v-button-caption {
+      color: blue;
+    }
+  }
+
+}
